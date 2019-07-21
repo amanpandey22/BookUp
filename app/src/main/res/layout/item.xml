@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_gravity="center"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+    android:background="#F2EECB">
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:background="#F2EECB"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        tools:text="Book 1" />
+
+    <ImageView
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/metamorphosis" />
+
+   <View
+       android:id="@+id/item_swipe_left_indicator"
+       android:alpha="0"
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:layout_margin="10dp"
+       android:background="#A5F" />
+
+   <View
+       android:id="@+id/item_swipe_right_indicator"
+       android:alpha="0"
+       android:layout_width="20dp"
+       android:layout_height="20dp"
+       android:layout_margin="10dp"
+       android:layout_gravity="right"
+       android:background="#5AF" />
+
+</FrameLayout>

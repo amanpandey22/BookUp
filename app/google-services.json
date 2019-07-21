@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "81543198404",
+    "firebase_url": "https://bookup-bbf15.firebaseio.com",
+    "project_id": "bookup-bbf15",
+    "storage_bucket": "bookup-bbf15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81543198404:android:875826f41b75eba4",
+        "android_client_info": {
+          "package_name": "com.example.android.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81543198404-29d2rnk9rqf9gm9opuptso8eafe7asqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.myapplication",
+            "certificate_hash": "102d77129e1a4c5a3781293b7f24aa162c352edc"
+          }
+        },
+        {
+          "client_id": "81543198404-b79dpl8sm73lp2r5tgj6ai9ooa5n6cig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPI_33x3WGTLeTt6PSpGhRflnjnJjdeco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81543198404-b79dpl8sm73lp2r5tgj6ai9ooa5n6cig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
